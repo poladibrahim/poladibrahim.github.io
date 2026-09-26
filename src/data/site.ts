@@ -12,7 +12,7 @@ export const profile = {
   // Drop a square photo at `public/images/avatar.jpg` and set the path here.
   // Leave it as `null` to show the monogram badge instead.
   avatar: null as string | null,
-  bio: 'Based in Bonn, Germany. I build retrieval-augmented search and embedding systems — most recently at Azerbaijan’s National AI Center, where I was a core contributor to eqanun.ai, a legal AI assistant for Azerbaijani law. Now doing my MSc in Computer Science at the University of Bonn and looking for a working student role (up to 20 h/week) in AI, ML or Data Science.',
+  bio: 'Based in Bonn, Germany. I build retrieval-augmented search and embedding systems — most recently at Azerbaijan’s National AI Center, where I was a core contributor to eqanun.ai, a legal AI assistant for Azerbaijani law. Now doing my MSc in Computer Science at the University of Bonn, working on retrieval, embeddings and NLP for low-resource languages.',
   // Short version used for meta descriptions and social cards.
   summary:
     'AI/ML Engineer specialising in retrieval-augmented generation, semantic search and embedding models. MSc Computer Science student at the University of Bonn.',
@@ -20,7 +20,7 @@ export const profile = {
   // Your phone number is intentionally left off the public site. Add it here
   // only if you want it published.
   phone: null as string | null,
-  available: 'Open to working student roles (up to 20 h/week) in AI, ML or Data Science.',
+  focus: 'Retrieval-augmented generation, semantic search, and embedding models for low-resource languages.',
   resume: '/Polad_Ibrahimov_CV.pdf',
 };
 

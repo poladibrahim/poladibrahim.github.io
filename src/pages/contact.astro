@@ -7,7 +7,7 @@ import { profile, socials } from '../data/site';
 
 <Base
   title="Contact"
-  description={`Get in touch with ${profile.name} — ${profile.available}`}
+  description={`Get in touch with ${profile.name} — ${profile.focus}`}
 >
   <div class="wrap wrap--narrow">
     <PageHeader
@@ -50,10 +50,10 @@ import { profile, socials } from '../data/site';
           </div>
         </div>
         <div class="facts__item">
-          <Icon name="calendar" size={17} class="facts__icon" />
+          <Icon name="sparkle" size={17} class="facts__icon" />
           <div>
-            <p class="facts__label">Availability</p>
-            <p class="facts__value">Up to 20 h/week alongside my MSc</p>
+            <p class="facts__label">Working on</p>
+            <p class="facts__value">Retrieval, embeddings, low-resource NLP</p>
           </div>
         </div>
         <div class="facts__item">
@@ -70,9 +70,10 @@ import { profile, socials } from '../data/site';
       </div>
 
       <p class="note">
-        If you're hiring for a working student or internship position in AI, ML, search or data —
-        in Bonn, Cologne, the wider NRW area, or remote — send me a line. A short description of the
-        problem your team is working on is more than enough to start.
+        Good reasons to write: you're building retrieval or search on a language without strong
+        pretrained models and want to compare notes; you disagree with something I've written here;
+        you're a student trying to get into NLP and have a question. I'm not the right person to ask
+        about anything with the word "blockchain" in it.
       </p>
     </section>
   </div>
